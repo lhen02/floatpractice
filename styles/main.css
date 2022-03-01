@@ -1,0 +1,56 @@
+html {
+    background-color: aquamarine;
+    background-image: url(../Images/background.png);
+    background-attachment: fixed;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    background-color: white;
+    max-width: 1000px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+
+}
+header {
+    background-color: blue;
+    color: white;
+    padding: 5px 0;
+}
+
+header h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+div {
+clear: both;
+
+}
+img {
+    max-width: 400px;
+    width: 100%;
+    margin: 5px;
+}
+
+.leftimage {
+    float: left;
+}
+
+.rightimage {
+    float: right;
+}
+
+footer{
+    clear: both;
+    background-color: blue;
+    color: white;
+    padding: 5px 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 80%;
+}
